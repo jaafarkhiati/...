@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Lieux touristique
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="logoutFn()">
+        <ion-icon name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item color="light">
+    <ion-label>Type de monument</ion-label>
+    <ion-select value="Plages" interface="popover" placeholder="Select One">
+      <ion-select-option value="shopping" >Shopping</ion-select-option>
+      <ion-select-option value="Plages">Plages</ion-select-option>
+      <ion-select-option value="Culture">Culture</ion-select-option>
+   
+    </ion-select>
+  </ion-item>
+</ion-content>
